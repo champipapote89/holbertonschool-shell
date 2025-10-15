@@ -1,2 +1,2 @@
 #!/bin/bash
-cat passwd | cut --output-delimiter=':' -d':' -f1,6 | sort
+cat /etc/passw | cut --output-delimiter=':' -d':' -f1,6 | sort
