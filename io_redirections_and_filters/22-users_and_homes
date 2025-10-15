@@ -1,2 +1,2 @@
 #!/bin/bash
-cat passwd | cut -d":" -f1,7 | tr -d "nologin" | sort
+ cat passwd | cut -d: -f1,6 |  sort
