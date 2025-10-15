@@ -1,2 +1,2 @@
 #!/bin/bash
-passwd (5) name home_dir /etc/passwd
+passwd (5) name home_dir /etc/passwd | sort
