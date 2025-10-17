@@ -1,6 +1,6 @@
 #!/bin/bash
 find . -type f -iname '*.gif' -printf "%f\n" | \
-while read extension
-do 
-    echo "${extension%.gif}"
-done | sort -f 
+while read extension \
+do \
+    echo "${extension%.gif}"\
+done | sort -f \
